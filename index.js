@@ -21,11 +21,6 @@ app.use(bodyParser.json());
 
 
 
-const pass = 'volunteer123456';
-
-
-
-
 
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
@@ -66,11 +61,7 @@ app.get('/register', (req, res) => {
 })
 
 
-
-
 });
-
-
 
 
 
